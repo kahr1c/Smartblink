@@ -29,6 +29,7 @@ void Gpio::set(int pin,bool value)
 
 void Gpio::set(unsigned int pattern)
 {
+    // Lauflicht Funktion
     int n = 0;
     bool value;
     unsigned int check = 0b0001;
